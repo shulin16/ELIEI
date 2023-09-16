@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h3 align="center"><strong>[ICIP 2023] ELIEI: Enhancing Low-light Images Using Infrared Encoded Images</strong></h3>
+  <h3 align="center"><strong>ELIEI: Enhancing Low-light Images Using Infrared Encoded Images</strong></h3>
   <p align="center">
       <a href="https://scholar.google.com/citations?hl=en&user=wFduC9EAAAAJ" target='_blank'>Shulin Tian*</a>,&nbsp;
       <a href="https://scholar.google.com/citations?hl=en&user=jLd1l_sAAAAJ" target='_blank'>Yufei Wang*</a>,&nbsp;
