@@ -16,15 +16,12 @@
 
 <p align="center">
 <img src="figs/IR_scene.jpg" width="60%">
+
 The visibility of low-light images is enhanced by increasing the number of income photons. (The right sides of (a) and (b) are amplified by a factor of 3.5 for better visualization.)
 </p>
 
 ## Dataset
-You can refer to the following links to download the datasets:
-<br>
-In this work, we are using a resized version [IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing) for our experiments.
-
-The file structure is listed as follows:
+In this work, we are using a resized version - [IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing) for our experiments. The file structure is constructed as follows:
 
 ```
 data_root # The paths need to be specified in the training configs under folder `./code/confs/xx.yml`
@@ -64,7 +61,6 @@ conda activate ELIEI
 ```
 cd ELIEI
 pip install -r requirements.txt
-
 ```
 
 
