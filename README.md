@@ -1,6 +1,10 @@
 <br />
+
 <p align="center">
   <h2 align="center"><strong>Enhancing Low-light Images Using Infrared Encoded Images</strong></h2>
+  <p align="center">
+    <a href="https://arxiv.org/pdf/2307.04122.pdf" style="font-size: 100px; text-decoration: none">Paper</a> | <a href="https://wyf0912.github.io/ELIEI/ " style="font-size: 100px; text-decoration: none">Project Page</a>
+  </p>
   <p align="center">
       <a href="https://scholar.google.com/citations?user=8COQQ8QAAAAJ&hl=en&oi=sra" target='_blank'>Shulin Tian*</a>,&nbsp;
       <a href="https://scholar.google.com/citations?hl=en&user=jLd1l_sAAAAJ" target='_blank'>Yufei Wang*</a>,&nbsp;
