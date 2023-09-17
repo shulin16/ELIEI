@@ -11,3 +11,37 @@
     <br>
   Nanyang Technological University, Hong Kong Baptist University, Peng Cheng Laboratory
   </p>
+
+### Dataset
+You can refer to the following links to download the datasets
+[IR-RGB [Google Drive]](https://drive.google.com/drive/folders/1YXizC5-I7gpr4EkIxHhxbEdt_-SqLAQJ?usp=sharing)
+[IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing). 
+
+## Get Started
+### Dependencies and Installation
+- Python 3.8
+- Pytorch 1.9
+
+1. Clone Repo
+```
+git clone https://github.com/shulin16/ELIEI.git
+```
+
+conda env create -f environment.yml
+
+
+2. Create Conda Environment
+```
+conda create --name ELIEI python=3.8
+conda activate ELIEI
+```
+3. Install Dependencies
+```
+cd ELIEI
+pip install -r requirements.txt
+
+```
+
+
+
+
