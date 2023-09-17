@@ -15,20 +15,19 @@
 </p>
 
 <p align="center">
-<img src="figs/IR_scene.jpg" align="center" width="60%">
+<img src="figs/IR_scene.jpg" width="60%">
 The visibility of low-light images is enhanced by increasing the number of income photons. (The right sides of (a) and (b) are amplified by a factor of 3.5 for better visualization.)
 </p>
 
-# Dataset
+## Dataset
 You can refer to the following links to download the datasets:
 <br>
 In this work, we are using a resized version [IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing) for our experiments.
 
-<br>
-<!-- [IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing). In this work, we are using preprocessed IR-RGB-resize version in the experiments. -->
 The file structure is listed as follows:
+
 ```
-data_root # The paths need to be specified in the training configs under folder "./code/confs/xx.yml"
+data_root # The paths need to be specified in the training configs under folder `./code/confs/xx.yml`
 └── train/
     ├── high/  
     └── low/
@@ -43,8 +42,8 @@ data_root # The paths need to be specified in the training configs under folder 
 We also relased the original size of images for broadening research purposes [IR-RGB [Google Drive]](https://drive.google.com/drive/folders/1YXizC5-I7gpr4EkIxHhxbEdt_-SqLAQJ?usp=sharing), feel free to download and explore!
 
 
-# Get Started
-## Dependencies and Installation
+## Get Started
+### Dependencies and Installation
 - Python 3.8
 - Pytorch 1.9
 
