@@ -28,6 +28,8 @@ The visibility of low-light images is enhanced by increasing the number of incom
 </p>
 
 ## Dataset
+<h2><a href="#Dataset"> Dataset </a></h2>
+
 In this work, we are using a resized version - [IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing) for our experiments. The file structure is constructed as follows:
 
 ```
@@ -49,7 +51,10 @@ We also relased the original size of images for broadening research purposes [IR
 ## Results
 
 ### Quantitative results
-#### Evaluation on LOL
+#### Evaluation on IR-RGB Dataset
+<div id = "Dataset">
+        <h2>Dataset section </h2>
+      </div>
 The evauluation results on LOL are as follows
 | Method | PSNR | SSIM | LPIPS |
 | :-- | :--: | :--: | :--: |
@@ -63,7 +68,9 @@ The evauluation results on LOL are as follows
 |  LLFlow | 25.46 | 0.890 | 0.130 |
 | **ELIEI (Ours)** | **26.23** | **0.899** | **0.116** |
 
-Quantitative comparison of existing SOTA methods and our method on the proposed dataset. We adapt PSNR, SSIM, and LPIPS to measure the reconstruction quality, structural similarity, and perceptual quality respectively.
+The table shows quantitative comparison of existing SOTA methods and our method on the proposed dataset. We adapt PSNR, SSIM, and LPIPS to measure the reconstruction quality, structural similarity, and perceptual quality respectively.
+
+
 
 ## Get Started
 ### Dependencies and Installation
