@@ -27,8 +27,10 @@ The visibility of low-light images is enhanced by increasing the number of incom
 
 </p>
 
-## Dataset
-<h2><a href="#Dataset"> Dataset </a></h2>
+<div id = "Dataset">
+  <h2>Dataset</h2>
+</div>
+
 
 In this work, we are using a resized version - [IR-RGB-resize [Google Drive]](https://drive.google.com/drive/folders/1SOKXNn1uirRSDGOG5GnmllIXXgd1m1gT?usp=sharing) for our experiments. The file structure is constructed as follows:
 
@@ -52,10 +54,9 @@ We also relased the original size of images for broadening research purposes [IR
 
 ### Quantitative results
 #### Evaluation on IR-RGB Dataset
-<div id = "Dataset">
-        <h2>Dataset section </h2>
-      </div>
-The evauluation results on LOL are as follows
+
+The evauluation results on <a href="#Dataset"> IR-RGB dataset </a> are as follows:
+
 | Method | PSNR | SSIM | LPIPS |
 | :-- | :--: | :--: | :--: |
 | RetinexNet | 11.14 | 0.628 | 0.586 |
