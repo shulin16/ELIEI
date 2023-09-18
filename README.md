@@ -14,7 +14,7 @@
     <br>
   Nanyang Technological University, Hong Kong Baptist University, Peng Cheng Laboratory
   </p>
-  
+
   <p align="center">
     <a href="https://arxiv.org/pdf/2307.04122.pdf">Paper</a> | <a href="https://wyf0912.github.io/ELIEI/ ">Project Page</a>
   </p>
@@ -56,7 +56,6 @@ We also relased the original size of images for broadening research purposes [IR
 git clone https://github.com/shulin16/ELIEI.git
 ```
 
-conda env create -f environment.yml
 
 
 2. Create Conda Environment
@@ -64,6 +63,9 @@ conda env create -f environment.yml
 conda create --name ELIEI python=3.8
 conda activate ELIEI
 ```
+
+or you can just simply use `conda env create -f environment.yml` to install all the packages you need.
+
 3. Install Dependencies
 ```
 cd ELIEI
