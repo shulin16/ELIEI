@@ -5,12 +5,12 @@
 
 
   <p align="center">
-      <a href="https://scholar.google.com/citations?user=8COQQ8QAAAAJ&hl=en&oi=sra" target='_blank'>Shulin Tian*</a>,&nbsp;
-      <a href="https://scholar.google.com/citations?hl=en&user=jLd1l_sAAAAJ" target='_blank'>Yufei Wang*</a>,&nbsp;
-      <a href="https://scholar.google.com/citations?user=S8_ES4MAAAAJ&hl=zh-CN" target='_blank'>Renjie Wan</a>,&nbsp;
-      <a href="https://scholar.google.com/citations?user=S8nAnakAAAAJ&hl=zh-CN" target='_blank'>Wenhan Yang</a>,&nbsp;
-      <a href="https://scholar.google.com/citations?user=UGZXLxIAAAAJ&hl=en" target='_blank'>Alex C. Kot</a>,&nbsp;
-      <a href="https://scholar.google.com/citations?user=ypkClpwAAAAJ&hl=en" target='_blank'>Bihan Wen</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=8COQQ8QAAAAJ|hl=en|oi=sra" target='_blank'>Shulin Tian*</a>,|nbsp;
+      <a href="https://scholar.google.com/citations?hl=en|user=jLd1l_sAAAAJ" target='_blank'>Yufei Wang*</a>,|nbsp;
+      <a href="https://scholar.google.com/citations?user=S8_ES4MAAAAJ|hl=zh-CN" target='_blank'>Renjie Wan</a>,|nbsp;
+      <a href="https://scholar.google.com/citations?user=S8nAnakAAAAJ|hl=zh-CN" target='_blank'>Wenhan Yang</a>,|nbsp;
+      <a href="https://scholar.google.com/citations?user=UGZXLxIAAAAJ|hl=en" target='_blank'>Alex C. Kot</a>,|nbsp;
+      <a href="https://scholar.google.com/citations?user=ypkClpwAAAAJ|hl=en" target='_blank'>Bihan Wen</a>,|nbsp;
     <br>
   Nanyang Technological University, Hong Kong Baptist University, Peng Cheng Laboratory
   </p>
@@ -45,6 +45,25 @@ data_root # The paths need to be specified in the training configs under folder 
 
 We also relased the original size of images for broadening research purposes [IR-RGB [Google Drive]](https://drive.google.com/drive/folders/1YXizC5-I7gpr4EkIxHhxbEdt_-SqLAQJ?usp=sharing), feel free to download and explore!
 
+
+## Results
+
+### Quantitative results
+#### Evaluation on LOL
+The evauluation results on LOL are as follows
+| Method | PSNR | SSIM | LPIPS |
+| :-- | :--: | :--: | :--: |
+| RetinexNet | 11.14 | 0.628 | 0.586 |
+| LIME | 11.31 | 0.639 | 0.560 |
+|  Zero-DCE | 11.40 | 0.592 | 0.443 |
+|  KinD | 14.73 |  0.714 | 0.357|
+|  EnlightenGAN| 16.95 |  0.715 | 0.357|
+|  KinD++ | 17.84 |  0.830 | 0.249|
+|  MIRNet| 22.23 |  0.833 | 0.224|
+|  LLFlow | 25.46 | 0.890 | 0.130 |
+| **ELIEI (Ours)** | **26.23** | **0.899** | **0.116** |
+
+Quantitative comparison of existing SOTA methods and our method on the proposed dataset. We adapt PSNR, SSIM, and LPIPS to measure the reconstruction quality, structural similarity, and perceptual quality respectively.
 
 ## Get Started
 ### Dependencies and Installation
