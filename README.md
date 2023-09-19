@@ -5,12 +5,12 @@
 
 
   <p align="center">
-      <a href="https://scholar.google.com/citations?user=8COQQ8QAAAAJ|hl=en|oi=sra" target='_blank'>Shulin Tian*</a>,|nbsp;
-      <a href="https://scholar.google.com/citations?hl=en|user=jLd1l_sAAAAJ" target='_blank'>Yufei Wang*</a>,|nbsp;
-      <a href="https://scholar.google.com/citations?user=S8_ES4MAAAAJ|hl=zh-CN" target='_blank'>Renjie Wan</a>,|nbsp;
-      <a href="https://scholar.google.com/citations?user=S8nAnakAAAAJ|hl=zh-CN" target='_blank'>Wenhan Yang</a>,|nbsp;
-      <a href="https://scholar.google.com/citations?user=UGZXLxIAAAAJ|hl=en" target='_blank'>Alex C. Kot</a>,|nbsp;
-      <a href="https://scholar.google.com/citations?user=ypkClpwAAAAJ|hl=en" target='_blank'>Bihan Wen</a>,|nbsp;
+      <a href="https://scholar.google.com/citations?user=8COQQ8QAAAAJ|hl=en|oi=sra" target='_blank'>Shulin Tian*</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?hl=en|user=jLd1l_sAAAAJ" target='_blank'>Yufei Wang*</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=S8_ES4MAAAAJ|hl=zh-CN" target='_blank'>Renjie Wan</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=S8nAnakAAAAJ|hl=zh-CN" target='_blank'>Wenhan Yang</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=UGZXLxIAAAAJ|hl=en" target='_blank'>Alex C. Kot</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=ypkClpwAAAAJ|hl=en" target='_blank'>Bihan Wen</a>,&nbsp;
     <br>
   Nanyang Technological University, Hong Kong Baptist University, Peng Cheng Laboratory
   </p>
@@ -53,7 +53,7 @@ We also relased the original size of images for broadening research purposes [IR
 ## Results
 
 ### Quantitative results
-#### Evaluation on IR-RGB Dataset
+<!-- #### Evaluation on IR-RGB Dataset -->
 
 The evauluation results on <a href="#Dataset"> IR-RGB dataset </a> are as follows:
 
@@ -71,6 +71,14 @@ The evauluation results on <a href="#Dataset"> IR-RGB dataset </a> are as follow
 
 The table shows quantitative comparison of existing SOTA methods and our method on the proposed dataset. We adapt PSNR, SSIM, and LPIPS to measure the reconstruction quality, structural similarity, and perceptual quality respectively.
 
+
+### Qualitative results
+
+#### Comparison with other methods
+
+#### Usage of IR-RGB dataset
+
+#### Usage of color alignment loss (CAL)
 
 
 ## Get Started
