@@ -75,10 +75,29 @@ The table shows quantitative comparison of existing SOTA methods and our method 
 ### Qualitative results
 
 #### Comparison with other methods
+<p align="center">
+<img src="figs/res.jpg" width="90%">
+
+Visual comparison with state-of-the-art low-light image enhancement methods on IR-RGB dataset. Our method shows better performance in controlling color distortion and detail preservation.
+
+</p>
 
 #### Usage of IR-RGB dataset
+<p align="center">
+<img src="figs/abl_1.jpg" width="60%">
+
+(a), (c) are images captured from RGB and IR-RGB space separately under low-light conditions, (d), (f) are respective high-light outputs.
+
+</p>
 
 #### Usage of color alignment loss (CAL)
+<p align="center">
+<img src="figs/abl_2.jpg" width="60%">
+
+ (c) is
+the result of our model trained directly w/o adding CAL, and (d) is the output from the same architecture but w/ CAL.
+
+</p>
 
 
 ## Get Started
@@ -122,6 +141,4 @@ If you find our work useful for your research, please cite our paper
 ```
 
 ### Acknowledgment
-This work was done at Rapid-Rich Object Search (ROSE) Lab, Nanyang
-Technological University. This research is supported in part by the NTU-PKU Joint Research Institute (a collaboration between the Nanyang Technological University and Peking University that is sponsored by a donation from the Ng Teng Fong Charitable Foundation), the Basic and Frontier Research Project of PCL, the Major Key Project of PCL, and the MOE AcRF
-Tier 1 (RG61/22) and Start-Up Grant.
+This work was done at Rapid-Rich Object Search (ROSE) Lab, Nanyang Technological University. This research is supported in part by the NTU-PKU Joint Research Institute (a collaboration between the Nanyang Technological University and Peking University that is sponsored by a donation from the Ng Teng Fong Charitable Foundation), the Basic and Frontier Research Project of PCL, the Major Key Project of PCL, and the MOE AcRF Tier 1 (RG61/22) and Start-Up Grant.
