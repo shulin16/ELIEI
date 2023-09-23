@@ -92,7 +92,7 @@ Visual comparison with state-of-the-art low-light image enhancement methods on I
 
 #### Usage of color alignment loss (CAL)
 <p align="center">
-<img src="figs/abl_2.jpg" width="60%">
+<img src="figs/abl_2.jpg" width="40%">
 
  (c) is
 the result of our model trained directly w/o adding CAL, and (d) is the output from the same architecture but w/ CAL.
