@@ -69,16 +69,14 @@ The evauluation results on <a href="#Dataset"> IR-RGB dataset </a> are as follow
 |  LLFlow | 25.46 | 0.890 | 0.130 |
 | **ELIEI (Ours)** | **26.23** | **0.899** | **0.116** |
 
-The table shows quantitative comparison of existing SOTA methods and our method on the proposed dataset. We adapt PSNR, SSIM, and LPIPS to measure the reconstruction quality, structural similarity, and perceptual quality respectively.
-
 
 ### Qualitative results
 
 #### Comparison with other methods
 <p align="center">
-<img src="figs/res.jpg" width="90%">
+<img src="figs/res.jpg" width="100%">
 
-Visual comparison with state-of-the-art low-light image enhancement methods on IR-RGB dataset. Our method shows better performance in controlling color distortion and detail preservation.
+Our method shows better performance in controlling color distortion and detail preservation.
 
 </p>
 
@@ -94,8 +92,7 @@ Visual comparison with state-of-the-art low-light image enhancement methods on I
 <p align="center">
 <img src="figs/abl_2.jpg" width="40%">
 
- (c) is
-the result of our model trained directly w/o adding CAL, and (d) is the output from the same architecture but w/ CAL.
+(c) is the result of our model trained directly w/o adding CAL, and (d) is the output from the same architecture but w/ CAL.
 
 </p>
 
