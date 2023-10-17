@@ -138,4 +138,4 @@ If you find our work useful for your research, please cite our paper
 ```
 
 ### Acknowledgment
-We thank <a href="https://wyf0912.github.io/">Yufei Wang</a> for his great work <a href="https://wyf0912.github.io/LLFlow/">LLFlow</a>. This work was done at <a href="https://www.ntu.edu.sg/rose">Rapid-Rich Object Search (ROSE) Lab, Nanyang Technological University</a>. This research is supported in part by the NTU-PKU Joint Research Institute (a collaboration between the Nanyang Technological University and Peking University that is sponsored by a donation from the Ng Teng Fong Charitable Foundation), the Basic and Frontier Research Project of PCL, the Major Key Project of PCL, and the MOE AcRF Tier 1 (RG61/22) and Start-Up Grant.
+We thank <a href="https://wyf0912.github.io/">Yufei Wang</a> for his work <a href="https://wyf0912.github.io/LLFlow/">LLFlow</a>. This work was done at <a href="https://www.ntu.edu.sg/rose">Rapid-Rich Object Search (ROSE) Lab, Nanyang Technological University</a>.
